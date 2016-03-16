@@ -7,8 +7,7 @@ import {Router} from 'angular2/router';
 @Component({
     selector: 'my-heroes',
     templateUrl: 'app/heroes.component.html',
-    styleUrls: ['app/heroes.component.css'],
-    directives: [HeroDetailComponent]
+    styleUrls: ['app/heroes.component.css']
 })
 
 export class HeroesComponent implements OnInit {
